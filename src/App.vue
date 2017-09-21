@@ -17,7 +17,7 @@
       <p class="err" v-for="err in errmessages">{{err}}</p>
       <p class="text">{{message}}</p>
     </div>
-    <h2>Output</h2>
+    <h2>Output</h2>　
     <div class="output">
       <h3>CSV</h3>
       <textarea v-model="resCSV" cols="30" rows="10" readonly></textarea>
